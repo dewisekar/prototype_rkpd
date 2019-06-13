@@ -1,10 +1,10 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Rpkd extends CI_Controller {
+class RKPD extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('rpkd/index');
+		$this->load->view('rkpd/index');
 	}
 }
