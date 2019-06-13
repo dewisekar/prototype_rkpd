@@ -6991,6 +6991,20 @@ button.bg-dark:focus {
   background-color: #fff !important;
 }
 
+/*.bg-rkpd {
+  background-color: #35ad89 !important;
+}*/
+
+.bg-rkpd {
+  background-color: #217058 !important;
+}
+
+a.bg-rkpd:hover, a.bg-rkpd:focus,
+button.bg-rkpd:hover,
+button.bg-rkpd:focus {
+  background-color: #42444e !important;
+}
+
 .bg-transparent {
   background-color: transparent !important;
 }
@@ -10551,6 +10565,11 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #e3e6f0;
   }
+}
+
+td a {
+    display:block;
+    width:100%;
 }
 
 html {
