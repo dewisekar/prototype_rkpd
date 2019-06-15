@@ -32,5 +32,9 @@ class Renja extends CI_Controller {
 	{
 		$this->load->view('renja/program');
 	}
+	public function kegiatan()
+	{
+		$this->load->view('renja/kegiatan');
+	}
 
 }

@@ -28,12 +28,13 @@
                     <a href="<?=base_url()?>renja/plafonanggaranopd" class="btn btn-icon-split ml-5" style="background-color: orange">
                         <span class="text" style="color: white">Plafon Anggaran</span>
                     </a>
-                    <a href="<?=base_url()?>renja/program" class="btn btn-light btn-icon-split ml-2">
-                        <span class="text">Program</span>
+                    <a href="<?=base_url()?>renja/program" class="btn btn-icon-split ml-2" style="background-color: orange">
+                        <span class="text" style="color: white">Program</span>
                     </a>
-                    <a href="<?=base_url()?>renja/kegiatan" class="btn btn-icon-split ml-2" style="background-color: orange">
-                        <span class="text" style="color: white">Kegiatan</span>
+                    <a href="<?=base_url()?>renja/kegiatan" class="btn btn-light btn-icon-split ml-2" >
+                        <span class="text">Kegiatan</span>
                     </a>
+                    
                     <a href="<?=base_url()?>renja/penetapan" class="btn btn-icon-split ml-2" style="background-color: orange">
                         <span class="text" style="color: white">Penetapan</span>
                     </a>
@@ -145,13 +146,12 @@
                             <div id="content">                           
 
                                 <!-- Begin Page Content -->
-                                <div class="container-fluid pt-5 p-0 pr-0">
+                                <div class="container-fluid pt-4 p-0 pr-0">
 
                                     <div class="row mr-1 ml-3 mb-0">
-
                                         <div class="col-md-12">
                                             <nav class="navbar navbar-expand navbar-light bg-transparent mb-4 pl-0 pr-0" style="overflow: visible">
-                                                <p class="h5 mb-0 text-gray-800">Program Pembangunan Daerah</p>
+                                                <p class="h5 mb-0 text-gray-800">Kegiatan Pembangunan Daerah</p>
                                                 <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
                                                     <div class="input-group">
                                                     <input type="text" class="form-control bg-light border-1 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
@@ -175,18 +175,10 @@
                                                         </div>
                                                     </li>
                                                     <li class="nav-item dropdown">
-                                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                        Verifikasi
-                                                        </a>
-                                                        <div class="dropdown-menu dropdown-menu-right animated--grow-in" aria-labelledby="navbarDropdown">
-                                                        <a class="dropdown-item" href="#">Action</a>
-                                                        <a class="dropdown-item" href="#">Another action</a>
-                                                        <div class="dropdown-divider"></div>
-                                                        <a class="dropdown-item" href="#">Something else here</a>
-                                                        </div>
+                                                        <a class="nav-link" href="#">Verifikasi</a>
                                                     </li>
                                                     <li class="nav-item dropdown">
-                                                        <a class="nav-link" href="#">Tambah Program</a>
+                                                        <a class="nav-link" href="#">Tambah Kegiatan</a>
                                                     </li>
                                                     <li class="nav-item dropdown">
                                                         <a class="nav-link" href="#">Ubah</a>
@@ -195,10 +187,15 @@
                                                         <a class="nav-link" href="#">Hapus</a>
                                                     </li>
                                                     <li class="nav-item dropdown">
-                                                        <a class="nav-link" href="#">Cetak</a>
-                                                    </li>
-                                                    <li class="nav-item dropdown">
-                                                        <a class="nav-link" href="#">Detail Program</a>
+                                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Cetak 
+                                                        </a>
+                                                        <div class="dropdown-menu dropdown-menu-right animated--grow-in" aria-labelledby="navbarDropdown">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        </div>
                                                     </li>
                                                     <li class="nav-item dropdown">
                                                         <a class="nav-link" href="#">Salin Data</a>
