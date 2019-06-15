@@ -111,10 +111,10 @@
                     </div>
                     <!-- Card Body -->
                     <div class="card-body" style="background-color:rgb(42, 207, 117)">
-                        <div class="container-fluid">
+                        <!-- <div class="container-fluid"> -->
                             <div class="row">
                                 <div class="col-11">
-                                    <div id="carousel-example" class="carousel slide" data-ride="carousel">
+                                    <div id="carousel-example" class="carousel slide" data-ride="carousel" style="margin-right:-5%">
                                         <div class="carousel-inner row w-100 mx-auto" role="listbox">
                                             <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
                                                 <div class="card">
@@ -264,13 +264,14 @@
                                             <span class="sr-only">Next</span>
                                         </a>
                                     </div>
+                                
                                 </div>
                                 <div class="col-1 text-center">
-                                    <button class="btn btn-primary btn-lg h-100" style="vertical-align: middle;background-color: rgb(29, 19, 83);border-color: rgb(29, 19, 83)"><i class="fas fa-plus"></i></button>
+                                    <button class="btn btn-primary btn-lg h-100 rounded-lg" style="vertical-align: middle;background-color: rgb(29, 19, 83);border-color: rgb(29, 19, 83);margin-left:-10%"><i class="fas fa-plus"></i></button>
                                 </div>
                             </div>
 
-                        </div>
+                        <!-- </div> -->
                     </div>
                 </div>
                 <!-- End of second Topbar -->
@@ -451,7 +452,7 @@
                         </div>
                     </div>
 
-                    <div class="card my-4" style="border:0">
+                    <div class="card my-4" style="border:0;font-size:13px;">
                         <div class="card-header" style="background-color: white;border:0">
                             <a class="mr-auto" style="color: rgb(0, 155, 155);font-size: 20px">Program</a>
 
@@ -519,25 +520,25 @@
                                         <td class="align-middle">1000</td>
                                         <td class="align-middle">1100</td>
                                         <td class="align-middle" style="background-color: rgb(252, 193, 193)">
-                                            <input type="number" class="form-control" value="500000000">
+                                            <input type="number" class="form-control form-control-sm" value="500000000">
                                         </td>
                                         <td class="align-middle">1100</td>
                                         <td class="align-middle" style="background-color: rgb(252, 193, 193)">
-                                            <input type="number" class="form-control" value="500000000">
+                                            <input type="number" class="form-control form-control-sm" value="500000000">
                                         </td>
                                         <td class="align-middle">1100</td>
                                         <td class="align-middle" style="background-color: rgb(252, 193, 193)">
-                                            <input type="number" class="form-control" value="500000000">
-                                        </td>
-                                        <td class="align-middle">1100</td>
-                                        <td class="align-middle" style="background-color: rgb(252, 193, 193)">
-
-                                            <input type="number" class="form-control" value="500000000">
+                                            <input type="number" class="form-control form-control-sm" value="500000000">
                                         </td>
                                         <td class="align-middle">1100</td>
                                         <td class="align-middle" style="background-color: rgb(252, 193, 193)">
 
-                                            <input type="number" class="form-control" value="500000000">
+                                            <input type="number" class="form-control form-control-sm" value="500000000">
+                                        </td>
+                                        <td class="align-middle">1100</td>
+                                        <td class="align-middle" style="background-color: rgb(252, 193, 193)">
+
+                                            <input type="number" class="form-control form-control-sm" value="500000000">
                                         </td>
                                         <td class="align-middle">Dinas Pendidikan</td>
                                     </tr>
@@ -549,20 +550,20 @@
                                         <td class="align-middle">100</td>
                                         <td class="align-middle">100</td>
                                         <td class="align-middle" style="background-color: rgb(252, 193, 193)">
-                                            <input type="number" class="form-control" value="10000000">
+                                            <input type="number" class="form-control form-control-sm" value="10000000">
                                         </td>
                                         <td class="align-middle">100</td>
                                         <td class="align-middle" style="background-color: rgb(252, 193, 193)">
-                                            <input type="number" class="form-control" value="10000000">
+                                            <input type="number" class="form-control form-control-sm" value="10000000">
                                         </td>
                                         <td class="align-middle">100</td>
                                         <td class="align-middle" style="background-color: rgb(252, 193, 193)">
-                                            <input type="number" class="form-control" value="10000000">
+                                            <input type="number" class="form-control form-control-sm" value="10000000">
                                         </td>
                                         <td class="align-middle">100</td>
                                         <td class="align-middle" style="background-color: rgb(252, 193, 193)">
 
-                                            <input type="number" class="form-control" value="10000000">
+                                            <input type="number" class="form-control form-control-sm" value="10000000">
                                         </td>
                                         <td class="align-middle">100</td>
                                         <td class="align-middle" style="background-color: rgb(252, 193, 193)">
